@@ -16,6 +16,7 @@ namespace DAL
         private SqlSugarClient db;
         public ModuleDAL()
         {
+
             db = SqlsugarHelper.Instance;
         }
         public base_module GetEntity(string menuId)
