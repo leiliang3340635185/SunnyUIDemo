@@ -14,6 +14,7 @@ namespace IDAL
     /// </summary>
     public interface IModuleButtonDAL
     {
+
         base_module_button GetEntity(string menuButtonId);
         int Add(base_module_button entity);
         int AddBatch(List<base_module_button> list);
